@@ -1,11 +1,6 @@
 /* =============
     Mixins
 ============= */
-/* ---------------- Font Sizing ---------------- */
-html {
-  font-size: 100%;
-}
-
 /* ---------------- Media Queries ---------------- */
 /* =============
     Variables
@@ -330,9 +325,32 @@ template {
 /* =============
     Typography
 ============= */
+h1 {
+  font-family: "Avenir Next";
+  font-size: 27px;
+  font-weight: 900;
+  line-height: 37px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+@media (min-width: 1024px) {
+  h1 {
+    font-family: Avenir Next;
+    font-size: 45px;
+    font-weight: 900;
+    line-height: 61px;
+    letter-spacing: 0em;
+  }
+}
+
 /* =============
     Buttons
 ============= */
+a.btn {
+  background-color: orange;
+  padding: 26px;
+}
+
 /* =============
     Forms
 ============= */
