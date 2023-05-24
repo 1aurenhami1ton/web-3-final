@@ -322,6 +322,18 @@ template {
 /* =============
     Base
 ============= */
+ul {
+  list-style: none;
+  padding: 0px;
+  margin: 0px;
+}
+
+ul#specs li {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+
 /* =============
     Typography
 ============= */
@@ -340,6 +352,40 @@ h1 {
     font-weight: 900;
     line-height: 61px;
     letter-spacing: 0em;
+  }
+}
+
+p {
+  font-family: "Avenir Next";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+}
+@media (min-width: 1024px) {
+  p {
+    font-family: "Avenir Next";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 20px;
+  }
+}
+
+h5 {
+  font-family: "Avenir Next";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 8px;
+  line-height: 11px;
+}
+@media (min-width: 1024px) {
+  h5 {
+    font-family: "Avenir Next";
+    font-style: normal;
+    font-weight: 900;
+    font-size: 12px;
+    line-height: 16px;
   }
 }
 
@@ -378,3 +424,17 @@ textarea {
 /* =============
     Footer
 ============= */
+section#hero button {
+  background-color: #D1AA21;
+  border: none;
+  border-radius: 100px;
+  padding: 0px 21px;
+}
+
+section ul#specs {
+  background-color: #262734;
+}
+
+section#reviews {
+  background-color: #262734;
+}

@@ -20,5 +20,29 @@ $accent1: #A55730;
 $accent2: #D1AA21;
 
 
+ul{
+
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+}
+
+@mixin flex(){
+    display: flex;
+    flex-direction: row;
+}
+
+ul#specs{
+    li{
+        @include flex();
+        gap: 20px;
+
+    
+    }
+}
 
 
+@mixin site-padding(){
+
+    padding: 64px;
+}

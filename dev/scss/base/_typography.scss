@@ -74,6 +74,46 @@
     
 }
 
+@mixin paragraph-text(){
+    
+    font-family: 'Avenir Next';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    
+    
+    
+    @include lg{
+
+        font-family: 'Avenir Next';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 20px;
+    
+    }
+    
+
+}
+
+@mixin callout-text(){
+
+    font-family: 'Avenir Next';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 8px;
+    line-height: 11px;
+
+    @include lg{
+        font-family: 'Avenir Next';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 12px;
+        line-height: 16px;
+    }
+
+}
 
 
 
@@ -81,4 +121,13 @@
 h1 {
     @include headline();
 
+}
+
+p{
+    @include paragraph-text()
+}
+
+h5 {
+
+    @include callout-text();
 }
