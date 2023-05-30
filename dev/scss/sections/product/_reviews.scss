@@ -1,5 +1,87 @@
 section#reviews{
     background-color: $primary1;
+    padding: 30px;
+
+    h1{color: white; text-align: center;}
+    
+    
+    ul{
+        li{
+            background-color: $primary4;
+            margin: 74px;
+            padding: 24px;
+           
+
+            article{
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                gap: 11px;
+
+                img{
+                    width: 59px;
+                    height: 59px;
+                }
+
+            }
+
+        }
+    }
+
+
+    @include lg{
+        padding-top: 30px;
+
+        ul{
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            margin-left: 5%;
+            margin-right: 5%;
+            column-gap: 5px;
+            
+            li{
+                margin: 40px;
+
+
+            }
+        }
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

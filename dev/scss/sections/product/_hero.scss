@@ -1,11 +1,56 @@
 section#hero{
+    background-color: $primary1;
+    color: white;
 
-    button{
-        background-color: $accent2;
-        border: none;
-        border-radius: 100px;
-        padding: 0px 21px;
+    img{
+        width: 100%;
+
     }
+    
+    article{
+        padding: 29px 30px;
+
+        button{
+            background-color: $accent2;
+            border: none;
+            border-radius: 100px;
+            padding: 0px 21px;
+        }
+
+        section#pricecard{
+        
+            display: flex;
+            flex-direction: row;
+            gap: 30px;
+
+            aside{
+                background-color: $primary3;
+                color: $primary1;
+                padding: 15px;
+                gap: 10px;
+            }
+            
+        }
+
+        div{
+
+            display: flex;
+            flex-direction: row;
+            gap: 17px;
+            align-items: center;
+            
+            img{
+                width: auto;
+                height: 23px;
+            }
+
+      
+        }
+
+
+    }
+    
+
 
 
 

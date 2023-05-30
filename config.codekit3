@@ -255,6 +255,19 @@
       "q" : 90,
       "rq" : 75
     },
+    "\/deploy\/img\/final images\/features mobile\/HIFI\/PRODUCT\/Mask group.png" : {
+      "ft" : 32768,
+      "iS" : 4985,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/final images\/features mobile\/HIFI\/PRODUCT\/Mask group.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 90,
+      "rq" : 75
+    },
     "\/deploy\/img\/final images\/features mobile\/Mask group.png" : {
       "ft" : 32768,
       "iS" : 4631,
@@ -281,11 +294,11 @@
       "q" : 90,
       "rq" : 75
     },
-    "\/deploy\/img\/final images\/features mobile\/one-odor-cartridge 1.png" : {
+    "\/deploy\/img\/final images\/features mobile\/odor neutralizer.png" : {
       "ft" : 32768,
       "iS" : 11549,
       "oA" : 0,
-      "oAP" : "\/deploy\/img\/final images\/features mobile\/one-odor-cartridge 1.png",
+      "oAP" : "\/deploy\/img\/final images\/features mobile\/odor neutralizer.png",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,

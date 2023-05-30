@@ -341,7 +341,6 @@ h1 {
   font-family: "Avenir Next";
   font-size: 27px;
   font-weight: 900;
-  line-height: 37px;
   letter-spacing: 0em;
   text-align: left;
 }
@@ -350,8 +349,22 @@ h1 {
     font-family: Avenir Next;
     font-size: 45px;
     font-weight: 900;
-    line-height: 61px;
     letter-spacing: 0em;
+  }
+}
+
+h2 {
+  font-family: "Avenir Next";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+}
+@media (min-width: 1024px) {
+  h2 {
+    font-family: "Avenir Next";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
   }
 }
 
@@ -360,7 +373,6 @@ p {
   font-style: normal;
   font-weight: 400;
   font-size: 12px;
-  line-height: 16px;
 }
 @media (min-width: 1024px) {
   p {
@@ -368,7 +380,6 @@ p {
     font-style: normal;
     font-weight: 400;
     font-size: 15px;
-    line-height: 20px;
   }
 }
 
@@ -377,7 +388,6 @@ h5 {
   font-style: normal;
   font-weight: 900;
   font-size: 8px;
-  line-height: 11px;
 }
 @media (min-width: 1024px) {
   h5 {
@@ -385,8 +395,27 @@ h5 {
     font-style: normal;
     font-weight: 900;
     font-size: 12px;
-    line-height: 16px;
   }
+}
+
+h4 {
+  font-family: "Avenir Next";
+  font-style: normal;
+  font-size: 12px;
+}
+@media (min-width: 1024px) {
+  h4 {
+    font-family: "Avenir Next";
+    font-style: normal;
+    font-size: 15px;
+  }
+}
+
+h6 {
+  font-family: "Avenir Next";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 11px;
 }
 
 /* =============
@@ -424,17 +453,166 @@ textarea {
 /* =============
     Footer
 ============= */
-section#hero button {
+section#hero {
+  background-color: #262734;
+  color: white;
+}
+section#hero img {
+  width: 100%;
+}
+section#hero article {
+  padding: 29px 30px;
+}
+section#hero article button {
   background-color: #D1AA21;
   border: none;
   border-radius: 100px;
   padding: 0px 21px;
 }
+section#hero article section#pricecard {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+}
+section#hero article section#pricecard aside {
+  background-color: #B0B4B7;
+  color: #262734;
+  padding: 15px;
+  gap: 10px;
+}
+section#hero article div {
+  display: flex;
+  flex-direction: row;
+  gap: 17px;
+  align-items: center;
+}
+section#hero article div img {
+  width: auto;
+  height: 23px;
+}
 
-section ul#specs {
+section#specs {
   background-color: #262734;
+  color: white;
+  padding: 35px;
+}
+section#specs h1 {
+  text-align: center;
+}
+section#specs ul {
+  margin-bottom: 50px;
+  text-align: center;
+}
+section#specs ul li {
+  color: white;
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  margin-bottom: 15px;
+  justify-content: center;
+}
+@media (min-width: 1024px) {
+  section#specs ul {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-bottom: 50px;
+  }
+  section#specs ul li {
+    color: white;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-bottom: 30px;
+    justify-content: flex-start;
+  }
+}
+
+section#features {
+  background-color: #dadada;
+  color: #262734;
+  padding: 30px;
+  text-align: center;
+  margin-bottom: 0px;
+}
+section#features h1 {
+  text-align: center;
+  padding-bottom: 11px;
+}
+section#features ul li {
+  padding-bottom: 35px;
+}
+section#features ul li p {
+  font-family: "Avenir Next";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 13px;
+}
+@media (min-width: 1024px) {
+  section#features ul li p {
+    font-family: "Avenir Next";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 25px;
+    text-align: center;
+  }
+}
+@media (min-width: 1024px) {
+  section#features {
+    padding-top: 150px;
+  }
+  section#features h1 {
+    text-align: center;
+    padding-bottom: 50px;
+  }
+  section#features ul {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    justify-content: baseline;
+    padding-left: 220px;
+    padding-right: 220px;
+    padding-bottom: 200px;
+    column-gap: 55px;
+  }
 }
 
 section#reviews {
   background-color: #262734;
+  padding: 30px;
+}
+section#reviews h1 {
+  color: white;
+  text-align: center;
+}
+section#reviews ul li {
+  background-color: #DADADA;
+  margin: 74px;
+  padding: 24px;
+}
+section#reviews ul li article {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 11px;
+}
+section#reviews ul li article img {
+  width: 59px;
+  height: 59px;
+}
+@media (min-width: 1024px) {
+  section#reviews {
+    padding-top: 30px;
+  }
+  section#reviews ul {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-left: 5%;
+    margin-right: 5%;
+    column-gap: 5px;
+  }
+  section#reviews ul li {
+    margin: 40px;
+  }
 }
