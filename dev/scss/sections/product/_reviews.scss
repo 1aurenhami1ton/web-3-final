@@ -23,6 +23,21 @@ section#reviews{
                     height: 59px;
                 }
 
+                div {
+                    
+                    *{
+                     margin: 0px;
+                    }
+
+                    h6{
+                        padding-bottom: 8px;
+                    }
+                }
+
+                .button{
+                    margin: 300px;
+                }
+
             }
 
         }
@@ -30,7 +45,6 @@ section#reviews{
 
 
     @include lg{
-        padding-top: 30px;
 
         ul{
             display: grid;

@@ -333,6 +333,19 @@
       "q" : 90,
       "rq" : 75
     },
+    "\/deploy\/img\/final images\/hero images\/hero image BIG_cropped.png" : {
+      "ft" : 32768,
+      "iS" : 1089652,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/final images\/hero images\/hero image BIG_cropped.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 90,
+      "rq" : 75
+    },
     "\/deploy\/img\/final images\/hero images\/image 6 SMALL.png" : {
       "ft" : 32768,
       "iS" : 195311,
@@ -377,6 +390,14 @@
       "oF" : 0,
       "sC" : 3,
       "tS" : 0
+    },
+    "\/dev\/checkout.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/checkout.html",
+      "oF" : 2
     },
     "\/dev\/content\/checkout\/_cart.kit" : {
       "cB" : 0,
@@ -717,6 +738,14 @@
       "oS" : 0,
       "pg" : 0,
       "sct" : 0
+    },
+    "\/dev\/thankyou.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/thankyou.html",
+      "oF" : 2
     }
   },
   "hooks" : [

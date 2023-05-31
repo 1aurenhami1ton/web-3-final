@@ -334,6 +334,20 @@ ul#specs li {
   gap: 20px;
 }
 
+.button {
+  background-color: #A55730;
+  text-decoration: none;
+  align-items: center;
+  font-family: "Avenir Next";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 20px;
+  color: white;
+  padding: 24px 64px;
+  display: inline-block;
+  margin: 0 auto;
+}
+
 /* =============
     Typography
 ============= */
@@ -456,6 +470,7 @@ textarea {
 section#hero {
   background-color: #262734;
   color: white;
+  position: relative;
 }
 section#hero img {
   width: 100%;
@@ -473,12 +488,18 @@ section#hero article section#pricecard {
   display: flex;
   flex-direction: row;
   gap: 30px;
+  margin-bottom: 50px;
 }
 section#hero article section#pricecard aside {
   background-color: #B0B4B7;
   color: #262734;
   padding: 15px;
-  gap: 10px;
+}
+section#hero article section#pricecard aside h4 {
+  margin: 0;
+}
+section#hero article section#pricecard aside h1 {
+  margin-top: 10px;
 }
 section#hero article div {
   display: flex;
@@ -489,6 +510,19 @@ section#hero article div {
 section#hero article div img {
   width: auto;
   height: 23px;
+}
+@media (min-width: 1024px) {
+  section#hero article {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    background: rgba(35, 36, 48, 0.93);
+    padding: 100px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
 }
 
 section#specs {
@@ -511,6 +545,9 @@ section#specs ul li {
   margin-bottom: 15px;
   justify-content: center;
 }
+section#specs ul li img {
+  display: none;
+}
 @media (min-width: 1024px) {
   section#specs ul {
     display: grid;
@@ -526,6 +563,9 @@ section#specs ul li {
     margin-right: 15%;
     margin-bottom: 30px;
     justify-content: flex-start;
+  }
+  section#specs ul li img {
+    display: inline;
   }
 }
 
@@ -601,10 +641,16 @@ section#reviews ul li article img {
   width: 59px;
   height: 59px;
 }
+section#reviews ul li article div * {
+  margin: 0px;
+}
+section#reviews ul li article div h6 {
+  padding-bottom: 8px;
+}
+section#reviews ul li article .button {
+  margin: 300px;
+}
 @media (min-width: 1024px) {
-  section#reviews {
-    padding-top: 30px;
-  }
   section#reviews ul {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
