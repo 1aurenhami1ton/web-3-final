@@ -335,9 +335,11 @@ ul#specs li {
 }
 
 .button {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
   background-color: #A55730;
   text-decoration: none;
-  align-items: center;
   font-family: "Avenir Next";
   font-style: normal;
   font-weight: 900;
@@ -458,9 +460,105 @@ textarea {
   -webkit-appearance: none;
 }
 
-/* =============
-    Navigation
-============= */
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  background-color: #12131A;
+}
+header aside#logo-container a {
+  text-decoration: none;
+}
+header aside#logo-container a h1 {
+  font-family: "Avenir Next";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 38px;
+  line-height: 52px;
+  text-decoration: none;
+  color: white;
+  padding-right: 30px;
+}
+@media (min-width: 1024px) {
+  header aside#logo-container h1 {
+    font-family: "Avenir Next";
+    font-style: normal;
+    font-weight: 900;
+    font-size: 45px;
+    line-height: 61px;
+    color: white;
+    padding-left: 30px;
+  }
+}
+header #burger-btn {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  position: relative;
+}
+header #burger-btn div {
+  height: 6px;
+  width: 30px;
+  background: white;
+  padding-left: 30px;
+}
+header #burger-container {
+  display: block;
+  position: relative;
+  z-index: 4;
+  padding-left: 30px;
+}
+@media (min-width: 1024px) {
+  header #burger-container {
+    display: none;
+  }
+}
+header #main-menu ul {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 70px;
+}
+header #main-menu ul li a {
+  font-family: "Avenir Next";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 33px;
+  color: white;
+  text-decoration: none;
+}
+@media only screen and (max-width: 1024px) {
+  header #main-menu {
+    background-color: #12131A;
+    transition: 0.3s;
+    height: 100vw;
+    width: 80%;
+    position: absolute;
+    top: 0;
+    z-index: 3;
+    left: -100%;
+    padding-top: 100px;
+  }
+  header #main-menu.show-menu {
+    left: 0;
+    transition: 0.3s;
+  }
+}
+@media (min-width: 1024px) {
+  header #main-menu {
+    display: inline;
+    position: relative;
+    height: auto;
+  }
+  header #main-menu ul {
+    display: flex;
+    flex-direction: row;
+  }
+}
+
 /* =============
     Header
 ============= */
@@ -574,7 +672,6 @@ section#features {
   color: #262734;
   padding: 30px;
   text-align: center;
-  margin-bottom: 0px;
 }
 section#features h1 {
   text-align: center;
@@ -621,10 +718,14 @@ section#features ul li p {
 section#reviews {
   background-color: #262734;
   padding: 30px;
+  text-align: center;
 }
 section#reviews h1 {
   color: white;
   text-align: center;
+}
+section#reviews ul {
+  text-align: left;
 }
 section#reviews ul li {
   background-color: #DADADA;
@@ -646,9 +747,6 @@ section#reviews ul li article div * {
 }
 section#reviews ul li article div h6 {
   padding-bottom: 8px;
-}
-section#reviews ul li article .button {
-  margin: 300px;
 }
 @media (min-width: 1024px) {
   section#reviews ul {

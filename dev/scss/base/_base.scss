@@ -48,9 +48,11 @@ ul#specs{
 }
 
 .button{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
     background-color: #A55730;
     text-decoration: none;
-    align-items: center;
     font-family: 'Avenir Next';
     font-style: normal;
     font-weight: 900;
@@ -60,3 +62,4 @@ ul#specs{
     display: inline-block;
     margin: 0 auto;
 }
+

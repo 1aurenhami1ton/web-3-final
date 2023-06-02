@@ -1,3 +1,132 @@
-/* =============
-    Navigation
-============= */
+
+
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    background-color: #12131A;
+
+    aside#logo-container{
+        a{
+            text-decoration: none;
+
+           h1{
+            font-family: 'Avenir Next';
+            font-style: normal;
+            font-weight: 900;
+            font-size: 38px;
+            line-height: 52px;
+            text-decoration: none;
+            color: white;
+            padding-right: 30px;
+           }
+
+        }
+      
+        @include lg{
+            h1{
+                font-family: 'Avenir Next';
+                font-style: normal;
+                font-weight: 900;
+                font-size: 45px;
+                line-height: 61px;
+                color: white;
+                padding-left: 30px;
+               }
+    
+
+        }
+
+    }
+
+
+  
+  //// THIS IS YOUR STYLE CODE /////
+
+    #burger-btn{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        position:relative;
+      div{
+            height: 6px;
+            width: 30px;
+            background: white;
+            padding-left: 30px;
+ 
+        ///// STYLES FOR YOUR BURGER MENU BARS ////
+           
+        }
+    }
+
+    #burger-container{
+        display: block;
+        position: relative;
+        z-index: 4;
+        padding-left: 30px;
+       
+        @include lg{
+            display: none;
+        }
+    }
+
+    #main-menu{
+
+        ul{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 70px;
+                
+                li{
+               
+                    a{
+            
+                        font-family: 'Avenir Next';
+                        font-style: normal;
+                        font-weight: 700;
+                        font-size: 24px;
+                        line-height: 33px;
+                        color: white;
+                        text-decoration: none;
+                }
+                }
+
+
+
+        }
+        
+      
+      @media only screen and (max-width: 1024px) {
+          background-color: #12131A;
+          transition:.3s;
+          height: 100vw;
+          width: 80%;
+          position: absolute;
+          top: 0;
+          z-index: 3;    
+          left: -100%;
+          padding-top: 100px;
+
+          &.show-menu{
+            left:0;
+              transition:.3s;
+            
+            //// YOUR OPEN MENU CODE GOES HERE /////
+          }
+      }
+     
+        @include lg{
+             ul{ 
+                  display: flex;
+                  flex-direction: row;
+              }
+            display: inline;
+            position: relative;
+            height: auto;
+        }
+    }
+} 
