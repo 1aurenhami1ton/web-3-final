@@ -29,6 +29,19 @@
       "oF" : 0,
       "pg" : 0
     },
+    "\/deploy\/img\/final images\/desktop icons\/angle-left-solid.png" : {
+      "ft" : 32768,
+      "iS" : 425,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/final images\/desktop icons\/angle-left-solid.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 90,
+      "rq" : 75
+    },
     "\/deploy\/img\/final images\/desktop icons\/bolt-solid.png" : {
       "ft" : 32768,
       "iS" : 570,
@@ -86,6 +99,19 @@
       "iS" : 414,
       "oA" : 0,
       "oAP" : "\/deploy\/img\/final images\/desktop icons\/ruler-horizontal-solid.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 90,
+      "rq" : 75
+    },
+    "\/deploy\/img\/final images\/desktop icons\/shopping cart.png" : {
+      "ft" : 32768,
+      "iS" : 1523,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/final images\/desktop icons\/shopping cart.png",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -354,6 +380,32 @@
       "q" : 90,
       "rq" : 75
     },
+    "\/deploy\/img\/final images\/hero images\/HIFI\/angle-left-solid.png" : {
+      "ft" : 32768,
+      "iS" : 425,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/final images\/hero images\/HIFI\/angle-left-solid.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 90,
+      "rq" : 75
+    },
+    "\/deploy\/img\/final images\/hero images\/HIFI\/PRODUCT\/shopping cart.png" : {
+      "ft" : 32768,
+      "iS" : 1523,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/final images\/hero images\/HIFI\/PRODUCT\/shopping cart.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 90,
+      "rq" : 75
+    },
     "\/deploy\/img\/final images\/hero images\/image 6 SMALL.png" : {
       "ft" : 32768,
       "iS" : 195311,
@@ -443,14 +495,6 @@
       "hM" : 0,
       "oA" : 1,
       "oAP" : "\/dev\/content\/checkout\/_cart.html",
-      "oF" : 0
-    },
-    "\/dev\/content\/checkout\/_pay.kit" : {
-      "cB" : 0,
-      "ft" : 2048,
-      "hM" : 0,
-      "oA" : 1,
-      "oAP" : "\/dev\/content\/checkout\/_pay.html",
       "oF" : 0
     },
     "\/dev\/content\/product\/_features.kit" : {
@@ -717,21 +761,6 @@
       "pg" : 0,
       "sct" : 0
     },
-    "\/dev\/scss\/sections\/checkout\/checkout\/_pay.scss" : {
-      "aP" : 0,
-      "bl" : 0,
-      "co" : 0,
-      "dP" : 10,
-      "ec" : 1,
-      "ft" : 4,
-      "ma" : 0,
-      "oA" : 1,
-      "oAP" : "\/dev\/scss\/sections\/checkout\/checkout\/_pay.css",
-      "oF" : 0,
-      "oS" : 0,
-      "pg" : 0,
-      "sct" : 0
-    },
     "\/dev\/scss\/sections\/product\/_features.scss" : {
       "aP" : 0,
       "bl" : 0,
@@ -787,6 +816,21 @@
       "ma" : 0,
       "oA" : 1,
       "oAP" : "\/dev\/scss\/sections\/product\/_specs.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 0
+    },
+    "\/dev\/scss\/sections\/thank you\/_thanks.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "co" : 0,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/scss\/sections\/thank you\/_thanks.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0,
