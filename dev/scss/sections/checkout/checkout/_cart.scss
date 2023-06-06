@@ -22,18 +22,18 @@ section#checkout{
                 display: flex;
                 flex-direction: row;
                 gap: 20px;
-                padding-bottom: 15px;
+                padding-bottom: 115px;
 
             }
 
             div#total{
-                padding-left: 30px;
+                margin-left: 30px;
                 display: flex;
                 flex-direction: row;
                 gap: 20px;
                 border-top: .5mm solid;
                 padding-bottom: 30px;
-                padding-right: 30px;
+                margin-right: 30px;
                 justify-content: space-between;
 
             }
@@ -47,13 +47,15 @@ section#checkout{
     }
 
     section#card{
-        padding-left: 30px;
         padding-bottom: 50px;
         padding-top: 30px;
+        text-align: center;
 
         h1{
             color: $primary1;
+            text-align: center;
         }
+
 
         form{
             padding-bottom: 11px;
@@ -68,7 +70,7 @@ section#checkout{
                 font-weight: 900;
                 font-size: 12px;
                 color: $primary1;
-                width: auto;
+                width: 50%;
                 padding: 12px 50px 12px 10px;
                 border: 2px solid #262734;
                 
@@ -96,9 +98,36 @@ section#checkout{
             padding-left: 30px;
             padding-bottom: 50px;
             padding-top: 70px;
-            align-content: center;
+            text-align: center;
             h1{
                 color: $primary1;
+                text-align: center;
+            }
+
+            article{
+                div#item{
+                    padding-left: 30px;
+                    display: flex;
+                    flex-direction: row;
+                    gap: 20px;
+                    padding-bottom: 150px;
+    
+                }
+    
+                div#total{
+                    padding-left: 30px;
+                    display: flex;
+                    flex-direction: row;
+                    gap: 20px;
+                    border-top: .5mm solid;
+                    padding-bottom: 30px;
+                    margin-right: 30px;
+                    justify-content: space-between;
+    
+                }
+    
+    
+    
             }
     
             form{
