@@ -579,9 +579,35 @@ header #main-menu ul li a {
 /* =============
     Header
 ============= */
-/* =============
-    Footer
-============= */
+section#footer div {
+  background-color: #12131A;
+  color: white;
+  margin-top: 0px;
+  padding: 25px;
+}
+section#footer div ul {
+  padding-bottom: 15px;
+  border-bottom: solid white;
+  text-align: left;
+}
+@media (min-width: 1024px) {
+  section#footer div {
+    display: flex;
+    flex-direction: row;
+    gap: 45px;
+  }
+}
+section#footer aside {
+  background-color: #12131A;
+  color: white;
+  padding: 15px;
+}
+@media (min-width: 1024px) {
+  section#footer aside h6 {
+    text-align: center;
+  }
+}
+
 section#hero {
   background-color: #262734;
   color: white;
@@ -883,4 +909,20 @@ section#checkout section#card form input {
     padding: 12px 50px 12px 10px;
     border: 2px solid #262734;
   }
+}
+
+section#thankyou {
+  background-color: #262734;
+  color: white;
+  text-align: center;
+  padding-top: 300px;
+  padding-bottom: 300px;
+}
+section#thankyou h1 {
+  text-align: center;
+}
+section#thankyou a {
+  margin: 55px;
+  padding-left: 25px;
+  padding-right: 25px;
 }

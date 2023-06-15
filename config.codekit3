@@ -393,6 +393,19 @@
       "q" : 90,
       "rq" : 75
     },
+    "\/deploy\/img\/final images\/hero images\/HIFI\/HIFI\/PRODUCT\/Mask group.png" : {
+      "ft" : 32768,
+      "iS" : 4456,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/final images\/hero images\/HIFI\/HIFI\/PRODUCT\/Mask group.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 90,
+      "rq" : 75
+    },
     "\/deploy\/img\/final images\/hero images\/HIFI\/PRODUCT\/shopping cart.png" : {
       "ft" : 32768,
       "iS" : 1523,
@@ -756,7 +769,7 @@
       "ma" : 0,
       "oA" : 1,
       "oAP" : "\/dev\/scss\/sections\/checkout\/checkout\/_cart.css",
-      "oF" : 0,
+      "oF" : 1,
       "oS" : 0,
       "pg" : 0,
       "sct" : 0
@@ -830,8 +843,8 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/dev\/scss\/sections\/thank you\/_thanks.css",
-      "oF" : 0,
+      "oAP" : "\/deploy\/thankyou.html",
+      "oF" : 3,
       "oS" : 0,
       "pg" : 0,
       "sct" : 0
